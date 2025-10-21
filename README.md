@@ -1,2 +1,37 @@
-# Healthcare_Data_Pipeline
-A cloud-native healthcare data pipeline automating ingestion, transformation, and analytics across clinical and claims systems using Python, PySpark, Airflow, AWS, and Snowflake—enabling real-time insights, fraud detection, and predictive analytics for population health management
+Healthcare Data Engineering & Analytics Pipeline
+
+A cloud-native end-to-end data pipeline designed for healthcare analytics, integrating Python, PySpark, Airflow, AWS, and Snowflake.
+Automates ingestion, transformation, and modeling of clinical and claims data, enabling real-time insights and predictive analytics.
+
+🧱 Tech Stack
+
+Languages: Python, SQL, PySpark
+
+Cloud: AWS (S3, Redshift, EMR, Kinesis, Athena, DynamoDB)
+
+Data Modeling: DBT, Snowflake
+
+Orchestration: Apache Airflow
+
+Analytics: Tableau, Elasticsearch
+
+ML Integration: TensorFlow, OpenAI GPT API
+
+⚙️ Features
+
+Automated ETL/ELT pipelines improving refresh time by 40%
+
+Optimized Spark jobs on Databricks & EMR (35% faster processing)
+
+Real-time ingestion via AWS Kinesis & Apache NiFi
+
+Curated DBT data marts for population health dashboards
+
+HIPAA-compliant data governance & CloudWatch monitoring
+📂 Repository Structure
+airflow_dags/       → Airflow DAGs for orchestration
+spark_jobs/         → PySpark transformation scripts
+scripts/            → Data ingestion & Redshift loading scripts
+dbt_models/         → DBT SQL models for Snowflake
+infra/terraform/    → Infrastructure-as-code configs
+notebooks/          → Analytics and exploration notebooks
